@@ -1,0 +1,30 @@
+.Scene1Button {
+	box-shadow: 0px 1px 9px 2px grey;
+	background:linear-gradient(to bottom, black 5%, black 100%);
+	background-color: black;
+	border-radius:42px;
+	border:2px solid white;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family: 'Mansalva', cursive;
+	font-size:30px;
+	padding:19px 76px;
+	text-decoration:none;
+    text-shadow:0px 1px 0px #283966;
+    
+}
+.Scene1Button:hover {
+    background:linear-gradient(to bottom, grey
+     5%, grey 100%);
+	background-color: black;
+}
+.Scene1Button:active {
+	position:relative;
+	top:1px;
+}
+.Scene1{
+    display: flex;
+    justify-content: center;
+    padding-top: 300px;
+}

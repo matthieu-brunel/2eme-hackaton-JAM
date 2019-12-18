@@ -1,5 +1,6 @@
 import React from 'react';
 import "./MainMenu.css";
+import "./../Gridd.css";
 
 class MainMenu extends React.Component {
     constructor(props) {
