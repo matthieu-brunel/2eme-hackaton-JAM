@@ -10,8 +10,7 @@ class MainMenu extends React.Component {
         return (
             <div>
                 <h1>Titre</h1>
-                <button
-                type="button">Commencez</button>
+                <a href ="/Scene1"><button type="button">Commencez</button></a>
             </div>
         )
     }
