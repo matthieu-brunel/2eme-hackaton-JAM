@@ -4,7 +4,7 @@ import './mainpage.css';
 
 function MainPage() {
   return (
-    <div className="back">
+    <div className="backMainMenu">
       <MainMenu />
       
 

@@ -1,11 +1,12 @@
 import React from 'react';
-
+import "./Scene2.css";
+import CompScene2 from './compScene2'
 
 
 function Scene2() {
   return (
-    <div>
-     
+    <div className="backScene2">
+     <CompScene2/>
       
 
     </div>
