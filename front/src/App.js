@@ -1,11 +1,11 @@
 import React from 'react';
-import MainPage from './components/mainpage';
+import MainPage from './components/HomePage/mainpage';
 import { Switch, Route } from 'react-router-dom';
-import Scene2 from './components/scene2';
-import Scene3 from './components/scene3';
-import Scene1 from './components/scene1';
+import Scene1 from './components/Scene1/Scene1';
+import Scene2 from './components/Scene2/Scene2';
+import Scene3 from './components/Scene3/Scene3';
 function App() {
-  return (
+  return ( 
     <div>
       <Switch>
         <Route exact path="/" component={MainPage} />
