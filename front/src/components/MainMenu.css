@@ -1,0 +1,40 @@
+h1{
+    font-family: 'Mansalva', cursive;
+    color: black;
+    font-size: 100px;;
+}
+.title{
+    display: flex;
+    justify-content: center;
+    padding-top: 50px;
+}
+.startButton {
+	box-shadow: 0px 1px 9px 2px grey;
+	background:linear-gradient(to bottom, black 5%, black 100%);
+	background-color: black;
+	border-radius:42px;
+	border:2px solid white;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family: 'Mansalva', cursive;
+	font-size:30px;
+	padding:19px 76px;
+	text-decoration:none;
+    text-shadow:0px 1px 0px #283966;
+    
+}
+.startButton:hover {
+    background:linear-gradient(to bottom, grey
+     5%, #7892c2 100%);
+	background-color: black;
+}
+.startButton:active {
+	position:relative;
+	top:1px;
+}
+.start{
+    display: flex;
+    justify-content: center;
+    padding-top: 300px;
+}
