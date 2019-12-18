@@ -1,17 +1,24 @@
 import React from 'react';
+import "./MainMenu.css";
 
 class MainMenu extends React.Component {
     constructor(props) {
         super(props);
         this.state = {}
     }
-
+    
     render() {
         return (
-            <div>
-                <h1>Titre</h1>
-                <a href ="/Scene1"><button type="button">Commencez</button></a>
+           <div className="back">
+            <div className="title">
+                <h1>Enquete à la Wild Code School</h1>
             </div>
+            <div className="start">
+            <a href="/scene1" class="startButton">Commencer</a>
+                </div>    
+            </div>
+            
+        
         )
     }
 }
