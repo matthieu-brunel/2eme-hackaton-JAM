@@ -26,7 +26,7 @@ h1{
 }
 .startButton:hover {
     background:linear-gradient(to bottom, grey
-     5%, #7892c2 100%);
+     5%, grey 100%);
 	background-color: black;
 }
 .startButton:active {
