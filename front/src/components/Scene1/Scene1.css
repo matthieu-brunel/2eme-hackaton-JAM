@@ -1,7 +1,7 @@
 .backScene1{
-    background-image: url("../../assets/fondjeu.jpeg");
+    background-image: url("../../assets/bureaumax.png");
     height: 100vh;
     background-repeat: no-repeat;
-    background-size: 100%;
-    
-}  
+    background-size: cover;
+    background-position: center;
+}   

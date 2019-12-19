@@ -1,8 +1,8 @@
 import React from 'react';
-import "./compScene3.css";
+import "./compScene5.css";
 import "./../Gridd.css";
 
-class CompScene3 extends React.Component {
+class CompScene5 extends React.Component {
     constructor(props) {
         super(props);
         this.state = {}
@@ -11,12 +11,12 @@ class CompScene3 extends React.Component {
     render() {
         return (
             <div >
-                <div className="Scene3">
-            <a href="/Scene4" class="Scene3Button">Commencer</a>
+                <div className="Scene5">
+            <a href="/" class="Scene5Button">Commencer</a>
                 </div> 
             </div>
         )
     }
 }
 
-export default CompScene3;
+export default CompScene5;

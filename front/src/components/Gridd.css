@@ -14,7 +14,7 @@
 
 
 
-  @media screen and (max-width: 750px) {
+  @media screen and (max-width: 767px) {
     .mob-0 {display: none;}
     .mob-1{width:8.33%;}
     .mob-2{width:16.66%;}
@@ -37,7 +37,7 @@
 
 
 
-  @media screen and (min-width: 751px) and (max-width: 1024px){
+  @media screen and (min-width: 768px) and (max-width: 1023px){
       .tab-0 {display: none;}
       .tab-1{width:8.33%;}
       .tab-2{width:16.66%;}
@@ -56,7 +56,7 @@
 
 
 
-  @media screen and (min-width: 1025px) {
+  @media screen and (min-width: 1024px) {
     .desk-0 {display: none;}
      .desk-1{width:8.33%;}
      .desk-2{width:16.66%;}
