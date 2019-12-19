@@ -28,3 +28,47 @@
     justify-content: center;
     padding-top: 300px;
 }
+
+.dialogue {
+	display: none;
+	
+
+}
+
+.boxDialogue {
+	border: 1px solid black;
+	background-color: rgba(50,50,50,0.5);
+	width: 50%;
+	height: 150px;
+	z-index: 1;
+	position: fixed;
+	right: 50px;
+	top: 9em;
+	text-align: center;
+	padding-top: 50px;
+	color: white;
+}
+
+.bubble{
+	position: absolute;
+	right:150px;
+	background-color:white;
+	text-align:center;
+	width:300px;
+	height:100px;
+	border:2px solid #555555;
+	padding-top: 20px;
+	border-top-right-radius:80px 40px;
+border-top-left-radius:80px 40px;
+border-bottom-right-radius:80px 40px;
+border-bottom-left-radius:80px 40px;
+-moz-border-radius-topright:80px 40px;
+-moz-border-radius-topleft:80px 40px;
+-moz-border-radius-bottomright:80px 40px;
+-moz-border-radius-bottomleft:80px 40px;
+-webkit-border-top-right-radius:80px 40px;
+-webkit-border-top-left-radius:80px 40px;
+-webkit-border-bottom-right-radius:80px 40px;
+-webkit-border-bottom-left-radius:80px 40px;
+z-index: 1;
+	}
