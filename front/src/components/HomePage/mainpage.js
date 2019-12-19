@@ -4,7 +4,7 @@ import './mainpage.css';
 
 function MainPage() {
   return (
-    <div className="backMainMenu">
+    <div className="backMainMenu taille">
       <MainMenu />
       
 

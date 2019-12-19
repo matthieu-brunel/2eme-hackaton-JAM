@@ -1,18 +1,4 @@
-
-
-h1{
-    font-family: 'Mansalva', cursive;
-    color: black;
-    font-size: 100px;;
-}
-
-
-.title{
-    display: flex;
-    justify-content: center;
-    padding-top: 50px;
-}
-.startButton {
+.Scene5Button {
 	box-shadow: 0px 1px 9px 2px grey;
 	background:linear-gradient(to bottom, black 5%, black 100%);
 	background-color: black;
@@ -28,35 +14,17 @@ h1{
     text-shadow:0px 1px 0px #283966;
     
 }
-.startButton:hover {
+.Scene5Button:hover {
     background:linear-gradient(to bottom, grey
      5%, grey 100%);
 	background-color: black;
 }
-.startButton:active {
+.Scene5Button:active {
 	position:relative;
 	top:1px;
 }
-.start{
+.Scene5{
     display: flex;
     justify-content: center;
     padding-top: 300px;
 }
-
-@media screen and (min-width: 824px) and (max-width: 1024px){
-	h1{
-		font-size: 80px;
-		text-align: center;
-	}
-
-}
-@media screen and (max-width: 823px) {
-	.start{
-		padding-top: 80px;
-	}
-	h1{
-		font-size: 60px;
-		text-align: center;
-	}
-}
-
