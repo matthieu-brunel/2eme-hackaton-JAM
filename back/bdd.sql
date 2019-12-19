@@ -9,6 +9,6 @@ CREATE TABLE images (
 
 CREATE TABLE charInfo (
     id INT PRIMARY KEY AUTO_INCREMENT,
-    lastname VARCHAR(50),
-    firstname VARCHAR(50)
+    name VARCHAR(50),
+    text VARCHAR(200)
 );
