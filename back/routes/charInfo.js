@@ -14,4 +14,15 @@ router.get('/', (req, res)=> {
     })
 });
 
+router.get('/text', (req, res)=> {
+    connection.query('SELECT text FROM charInfo', 
+    (err , results)=> {
+        if(err) {
+            console.log("Oups, ceci n'est pas bon signe");
+        } else {
+            console.log("Oui !!!");
+            res.json(results);
+        }
+    })
+});
 module.exports = router;
