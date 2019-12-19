@@ -37,21 +37,24 @@ class CompScene1 extends React.Component {
     render() {
         return (
             <div >
+                 <div className="start1">
+                    <a href="/scene2" class="Scene1Button">Suivant</a>
+                 </div>  
                 <div className="Scene1">
-                    <a href="/scene2" class="Scene1Button">Commencer</a>
-                    <div>
+                     <div>
                         {!this.state.isToggleOn && <div className={this.state.isToggleOn ? "dialogue" : ""}  >
-                            <p className="bubble">{this.state.dialogue[0].text}  </p>
+                            <p className="bubble">{this.state.dialogue[3].text}  </p>
 
                         </div>}
 
-                        <img onClick={event => {
+                        <img className="test" onClick={event => {
                             this.state.isToggleOn ? this.setState({ isToggleOn: false }) : this.setState({ isToggleOn: true })
-                        }} src="../../asset/baptiste_a.png" alt="Un personnage" />
+                        }} src="../../asset/maxime.png" alt="Un personnage" />
 
                     </div>
 
                 </div>
+                
             </div>
         )
     }

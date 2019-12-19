@@ -34,6 +34,10 @@
 	
 
 }
+.start1{
+    display: flex;
+	justify-content: flex-end;	
+}
 
 .boxDialogue {
 	border: 1px solid black;
@@ -72,3 +76,4 @@ border-bottom-left-radius:80px 40px;
 -webkit-border-bottom-left-radius:80px 40px;
 z-index: 1;
 	}
+
