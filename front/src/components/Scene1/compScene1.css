@@ -11,12 +11,12 @@
 	font-size:30px;
 	padding:19px 76px;
 	text-decoration:none;
-    text-shadow:0px 1px 0px #283966;
-    
+	text-shadow:0px 1px 0px #283966;
+	
 }
 .Scene1Button:hover {
-    background:linear-gradient(to bottom, grey
-     5%, grey 100%);
+	background:linear-gradient(to bottom, grey
+	5%, grey 100%);
 	background-color: black;
 }
 .Scene1Button:active {
@@ -24,18 +24,18 @@
 	top:1px;
 }
 .Scene1{
-    display: flex;
-    justify-content: center;
-    padding-top: 300px;
+	display: flex;
+	justify-content: center;
+	padding-top: 300px;
 }
 
 .dialogue {
 	display: none;
 	
-
+	
 }
 .start1{
-    display: flex;
+	display: flex;
 	justify-content: flex-end;	
 }
 
@@ -53,9 +53,10 @@
 	color: white;
 }
 
-.bubble{
+.bubbleMax{
 	position: absolute;
-	right:150px;
+	right:850px;
+	bottom:350px;
 	background-color:white;
 	text-align:center;
 	width:300px;
@@ -63,29 +64,29 @@
 	border:2px solid #555555;
 	padding-top: 20px;
 	border-top-right-radius:80px 40px;
-border-top-left-radius:80px 40px;
-border-bottom-right-radius:80px 40px;
-border-bottom-left-radius:80px 40px;
--moz-border-radius-topright:80px 40px;
--moz-border-radius-topleft:80px 40px;
--moz-border-radius-bottomright:80px 40px;
--moz-border-radius-bottomleft:80px 40px;
--webkit-border-top-right-radius:80px 40px;
--webkit-border-top-left-radius:80px 40px;
--webkit-border-bottom-right-radius:80px 40px;
--webkit-border-bottom-left-radius:80px 40px;
-z-index: 1;
-	}
+	border-top-left-radius:80px 40px;
+	border-bottom-right-radius:80px 40px;
+	border-bottom-left-radius:80px 40px;
+	-moz-border-radius-topright:80px 40px;
+	-moz-border-radius-topleft:80px 40px;
+	-moz-border-radius-bottomright:80px 40px;
+	-moz-border-radius-bottomleft:80px 40px;
+	-webkit-border-top-right-radius:80px 40px;
+	-webkit-border-top-left-radius:80px 40px;
+	-webkit-border-bottom-right-radius:80px 40px;
+	-webkit-border-bottom-left-radius:80px 40px;
+	z-index: 1;
+}
 
 
 
 
-	.test{
-		height: 400px;
-	}
+.test{
+	height: 400px;
+}
 
 
-	.max{
-		margin-right: 900px;
-	}
+.max{
+	margin-right: 900px;
+}
 

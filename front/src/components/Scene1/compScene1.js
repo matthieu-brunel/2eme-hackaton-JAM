@@ -50,7 +50,7 @@ class CompScene1 extends React.Component {
                 <div className="Scene1">
                     <div>
                         {!this.state.isToggleOn && <div className={this.state.isToggleOn ? "dialogue" : ""}  >
-                          <p className="bubble">{this.state.dialogue[4].text}  </p>
+                          <p className="bubbleMax">{this.state.dialogue[4].text}  </p>
                          </div>}
                        
                         <div className="max">
