@@ -6,3 +6,39 @@
     background-size: cover;
     background-position: center;
 }  
+
+.vinijopofa{
+    display: flex;
+    justify-content: center;
+}
+
+.virgi{
+    margin-top: 200px;
+}
+
+.nico{
+    margin-top: 150px;
+}
+
+.poul{
+    margin-top: 100px;
+}
+
+.fabinou{
+    margin-right: 80px;
+    margin-top: 120px;
+
+}
+
+.jonat{
+    margin-top: 250px;
+    
+}
+
+.joni{
+    height: 480px;
+}
+
+.popolito{
+    height: 300px;
+}

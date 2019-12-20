@@ -39,11 +39,11 @@ class Jonathan extends React.Component {
                 
                     {!this.state.isToggleOn &&
                         <div className={this.state.isToggleOn ? "dialogue" : ""}  >
-                            <p className="bubble">{this.state.dialogue[3].text}  </p>
+                            <p className="bubble">{this.state.dialogue[15].text}  </p>
 
                         </div>}
                     <div>
-                        <img className="test" onClick={event => {
+                        <img className="joni" onClick={event => {
                             this.state.isToggleOn ? this.setState({ isToggleOn: false }) : this.setState({ isToggleOn: true })
                         }} src="../../asset/jonathan.png" alt="Un personnage" />
 

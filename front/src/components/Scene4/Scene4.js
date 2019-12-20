@@ -9,13 +9,19 @@ import Matcoco from "./Matcoco";
 function Scene4() {
   return (
     <div className="backScene4">
-     <CompScene4/>
-     
-     <div className="row">
-      <Louis/>
-      <Armand/>
-      <Matcoco/>
-</div>
+      <CompScene4 />
+
+      <div className="row matloar">
+        <div className="loui">
+          <Louis />
+        </div>
+        <div className="arman">
+          <Armand />
+        </div>
+        <div className="matcoc">
+          <Matcoco />
+        </div>
+      </div>
     </div>
   );
 }

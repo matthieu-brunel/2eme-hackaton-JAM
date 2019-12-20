@@ -10,9 +10,13 @@ function Scene3() {
     <div className="backScene3">
       <CompScene3 />
 
-      <div className="row">
+      <div className="row xavnico">
+       <div className="xavie">
         <Xavier />
+       </div>
+       <div className="nicol">
         <NicolasF />
+        </div>
       </div>
 
 

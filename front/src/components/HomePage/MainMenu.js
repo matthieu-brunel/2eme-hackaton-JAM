@@ -14,9 +14,7 @@ class MainMenu extends React.Component {
                 <div className="title tab-12 mob-12">
                     <h1>Enquete à la Wild Code School</h1>
                 </div>
-                <form className="start">
-                    <input className="css-input" defaultValue="Pseudo" type="text" name="name" />
-                </form>
+                
                 <div className="start tab-12 mob-12">
                     <a href="/scene1" class="startButton">Commencer</a>
                 </div>

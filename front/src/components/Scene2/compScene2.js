@@ -42,12 +42,15 @@ class CompScene2 extends React.Component {
                
                 <div>
                     {!this.state.isToggleOn && <div className={this.state.isToggleOn ? "dialogue" : ""}  >
-                        <p className="bubble">{this.state.dialogue[0].text}  </p>
+                        <p className="bubble">{this.state.dialogue[5].text}  </p>
 
                     </div>}
-                    <img onClick={event => {
+
+                    
+                    <img className="fab1" onClick={event => {
                         this.state.isToggleOn ? this.setState({ isToggleOn: false }) : this.setState({ isToggleOn: true })
                     }} src="../../asset/fabieng.png" alt="Un personnage" />
+                    
                     </div>
                 </div>
                 )

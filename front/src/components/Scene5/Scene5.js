@@ -12,15 +12,26 @@ import "./../Gridd.css";
 function Scene5() {
   return (
     <div className="backScene5 ">
-     <CompScene5/>
-      
-      <div className="row">
-        <Virginy/>
-      <NicolasL/>
-      <Paul/>
-      <FabienF/>
-      <Jonathan/>
-    </div>
+      <CompScene5 />
+
+      <div className="row vinijopofa">
+        <div className="virgi">
+          <Virginy />
+        </div>
+        <div className="nico">
+          <NicolasL />
+        </div>
+        <div className="jonat">
+          <Jonathan />
+        </div>
+        <div className="poul">
+          <Paul />
+        </div>
+        <div className="fabinou">
+          <FabienF />
+        </div>
+        
+      </div>
     </div>
   );
 }
