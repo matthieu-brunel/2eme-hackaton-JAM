@@ -46,7 +46,7 @@ class Virginy extends React.Component {
                 
                     {!this.state.isToggleOn &&
                         <div className={this.state.isToggleOn ? "dialogue" : ""}  >
-                            <p className="bubble">{this.state.dialogue[3].text}  </p>
+                            <p className="bubble">{this.state.dialogue[11].text}  </p>
 
                         </div>}
                     <div>

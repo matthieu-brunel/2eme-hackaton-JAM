@@ -6,3 +6,26 @@
     background-size: cover;
     background-position: center;
 }  
+
+.xavnico{
+    display: flex;
+    justify-content: space-between;
+}
+
+.xavie{
+    margin-top: 300px;
+    
+}
+
+.nicol{
+    margin-top: 250px;
+    margin-right: 150px;
+}
+
+.nicolos{
+    height: 350px;
+}
+
+.xavio{
+    height: 450px;
+}

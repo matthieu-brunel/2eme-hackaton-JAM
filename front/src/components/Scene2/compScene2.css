@@ -29,6 +29,7 @@
     padding-top: 300px;
 }
 
+
 .motherCacaDiv {
 	display: flex;
 	justify-content: center;
@@ -42,4 +43,8 @@
 	position: absolute;
 	bottom: 350px;
 	cursor: pointer;
+
+
+.fab1{
+	height: 600px;
 }
