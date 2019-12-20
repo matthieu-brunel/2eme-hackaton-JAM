@@ -9,7 +9,14 @@ class Armand extends React.Component {
             isToggleOn: true,
             dialogue: ""
         };
+        this.audio = new Audio('../../../asset/plop.mp3');
     }
+
+    play = () => {
+        this.audio.play();
+ 
+    }
+    
 
     componentDidMount() {
         fetch('http://localhost:5000/api/charInfo/text')
@@ -45,7 +52,7 @@ class Armand extends React.Component {
                         </div>}
                     <div>
                         <img className="test" onClick={event => {
-                            this.state.isToggleOn ? this.setState({ isToggleOn: false }) : this.setState({ isToggleOn: true })
+                            this.state.isToggleOn ? this.setState({ isToggleOn: false }) : this.setState({ isToggleOn: true }); {this.play()}
                         }} src="../../asset/armand.png" alt="Un personnage" />
 
 

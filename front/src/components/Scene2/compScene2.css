@@ -28,3 +28,18 @@
     justify-content: center;
     padding-top: 300px;
 }
+
+.motherCacaDiv {
+	display: flex;
+	justify-content: center;
+}
+
+.cacaDiv {
+	width: 20%;
+	height: 200px;
+	padding-left: 60px;
+	padding-bottom: 60px;
+	position: absolute;
+	bottom: 350px;
+	cursor: pointer;
+}

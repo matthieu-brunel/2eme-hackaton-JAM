@@ -10,8 +10,15 @@ class CompScene1 extends React.Component {
         this.state = {
             isToggleOn: true,
             dialogue: ""
-        };
+        }
+        this.audio = new Audio('../../../asset/plop.mp3');
     }
+
+    play = () => {
+        this.audio.play();
+ 
+    }
+    
 
     componentDidMount() {
         fetch('http://localhost:5000/api/charInfo/text')
@@ -43,12 +50,12 @@ class CompScene1 extends React.Component {
                 <div className="Scene1">
                      <div>
                         {!this.state.isToggleOn && <div className={this.state.isToggleOn ? "dialogue" : ""}  >
-                            <p className="bubble">{this.state.dialogue[3].text}  </p>
+                            <p className="bubble">{this.state.dialogue[0].text}  </p>
 
                         </div>}
 
                         <img className="test" onClick={event => {
-                            this.state.isToggleOn ? this.setState({ isToggleOn: false }) : this.setState({ isToggleOn: true })
+                            this.state.isToggleOn ? this.setState({ isToggleOn: false }) : this.setState({ isToggleOn: true }); {this.play()}
                         }} src="../../asset/maxime.png" alt="Un personnage" />
 
                     </div>
