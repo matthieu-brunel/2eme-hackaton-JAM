@@ -8,8 +8,21 @@ class CompScene2 extends React.Component {
         this.state = {
             isToggleOn: true,
             dialogue: ""
-        };
+        }
+        this.audio = new Audio('../../../asset/fart.mp3');
+        this.audioBis = new Audio('../../../asset/scream.mp3');
     }
+
+    play = () => {
+        this.audio.play();
+ 
+    }
+    
+    playBis = () => {
+        this.audioBis.play();
+    }
+    
+    
 
     componentDidMount() {
         fetch('http://localhost:5000/api/charInfo/text')
@@ -29,9 +42,8 @@ class CompScene2 extends React.Component {
 
     getMyDialogue = () => {
 
-    
-
     }
+    
 
     render() {
         return (
@@ -46,12 +58,16 @@ class CompScene2 extends React.Component {
 
                     </div>}
 
+
                     
                     <img className="fab1" onClick={event => {
-                        this.state.isToggleOn ? this.setState({ isToggleOn: false }) : this.setState({ isToggleOn: true })
+                        this.state.isToggleOn ? this.setState({ isToggleOn: false }) : this.setState({ isToggleOn: true }); {this.playBis()}
                     }} src="../../asset/fabieng.png" alt="Un personnage" />
                     
+
                     </div>
+                    <div className="motherCacaDiv">
+                    <div className="cacaDiv" onClick={this.play}>
                 </div>
                 )
             }

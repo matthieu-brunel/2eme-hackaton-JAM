@@ -8,6 +8,13 @@ class Jonathan extends React.Component {
             isToggleOn: true,
             dialogue: ""
         };
+        this.audio = new Audio('../../../asset/plop.mp3');
+    }
+
+    play = () => {
+        this.audio.play();
+ 
+    
     }
 
     componentDidMount() {
@@ -43,8 +50,11 @@ class Jonathan extends React.Component {
 
                         </div>}
                     <div>
+
+
                         <img className="joni" onClick={event => {
-                            this.state.isToggleOn ? this.setState({ isToggleOn: false }) : this.setState({ isToggleOn: true })
+                            this.state.isToggleOn ? this.setState({ isToggleOn: false }) : this.setState({ isToggleOn: true }); {this.play()}
+
                         }} src="../../asset/jonathan.png" alt="Un personnage" />
 
 
