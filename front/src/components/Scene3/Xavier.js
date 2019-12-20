@@ -38,11 +38,11 @@ class Xavier extends React.Component {
                 <div>
                     {!this.state.isToggleOn &&
                         <div className={this.state.isToggleOn ? "dialogue" : ""}  >
-                            <p className="bubble">{this.state.dialogue[3].text}  </p>
+                            <p className="bubble">{this.state.dialogue[7].text}  </p>
 
                         </div>}
                     <div>
-                        <img className="test" onClick={event => {
+                        <img className="xavio" onClick={event => {
                             this.state.isToggleOn ? this.setState({ isToggleOn: false }) : this.setState({ isToggleOn: true })
                         }} src="../../asset/xavier.png" alt="Un personnage" />
                     </div>

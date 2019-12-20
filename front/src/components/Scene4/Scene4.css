@@ -6,3 +6,27 @@
     background-size: cover;
     background-position: center;
 }  
+
+
+.matloar{
+    display: flex;
+    justify-content: center;
+}
+
+.loui{
+    margin-top: 200px;
+}
+
+.matcoc{
+    margin-top: 200px;
+    margin-right: 150px;
+}
+
+.armando{
+    height: 250px;
+}
+
+.arman{
+    margin-top: 100px;
+    margin-left: 50px;
+}
