@@ -36,8 +36,8 @@ class CompScene2 extends React.Component {
     render() {
         return (
             <div >
-                <div className="Scene2">
-                    <a href="/scene3" class="Scene2Button">Commencer</a>
+                <div className="start1">
+                    <a href="/scene3" class="Scene2Button">Suivant</a>
                 </div>
                
                 <div>
