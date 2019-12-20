@@ -54,7 +54,7 @@ class CompScene2 extends React.Component {
                
                 <div>
                     {!this.state.isToggleOn && <div className={this.state.isToggleOn ? "dialogue" : ""}  >
-                        <p className="bubble">{this.state.dialogue[5].text}  </p>
+                        <p className="bubbleFabG">{this.state.dialogue[5].text}  </p>
 
                     </div>}
 
@@ -67,7 +67,12 @@ class CompScene2 extends React.Component {
 
                     </div>
                     <div className="motherCacaDiv">
-                    <div className="cacaDiv" onClick={this.play}>
+                     
+                    <div className="cacaDiv" onClick={this.play} >
+
+                        </div>
+                         </div>
+                        
                 </div>
                 )
             }

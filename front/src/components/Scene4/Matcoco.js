@@ -45,7 +45,7 @@ class Matcoco extends React.Component {
                 <div>
                     {!this.state.isToggleOn &&
                         <div className={this.state.isToggleOn ? "dialogue" : ""}  >
-                            <p className="bubble">{this.state.dialogue[8].text}  </p>
+                            <p className="bubbleMCoco">{this.state.dialogue[8].text}  </p>
 
                         </div>}
                     <div>

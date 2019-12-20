@@ -47,7 +47,7 @@ class Armand extends React.Component {
                 <div>
                     {!this.state.isToggleOn &&
                         <div className={this.state.isToggleOn ? "dialogue" : ""}  >
-                            <p className="bubble">{this.state.dialogue[9].text}  </p>
+                            <p className="bubbleArmand">{this.state.dialogue[9].text}  </p>
 
                         </div>}
                     <div>

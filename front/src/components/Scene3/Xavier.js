@@ -45,7 +45,7 @@ class Xavier extends React.Component {
                 <div>
                     {!this.state.isToggleOn &&
                         <div className={this.state.isToggleOn ? "dialogue" : ""}  >
-                            <p className="bubble">{this.state.dialogue[7].text}  </p>
+                            <p className="bubbleXav">{this.state.dialogue[7].text}  </p>
 
                         </div>}
                     <div>
